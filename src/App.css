@@ -1,8 +1,8 @@
-.App {
+/*.App {
   text-align: center;
-}
+}*/
 
-.App-logo {
+/*.App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -11,9 +11,9 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+}*/
 
-.App-header {
+/*.App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,9 +22,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+}*/
 
-.App-link {
+/*.App-link {
   color: #61dafb;
 }
 
@@ -35,4 +35,42 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+.outer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: left;
+}
+.inner{
+  width: 450px;
+  margin: auto;
+  background-color: #ffff;
+  box-shadow: 0px 14px 80px rgba(34,35,58,0.2);
+  padding: 40px,55px,45px,55px;
+  border-radius: 15px;
+  transition: all.3s;
+}
+.outer .form-control:focus{
+  border-color: #167bff;
+  box-shadow: none;
+}
+.outer h3{
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+  padding-bottom: 20px;
+}
+label{
+  font-weight: 600;
+}
+.forget-password,
+.forget-password{
+  text-align: right;
+  font-size: 13px;
+  padding-top: 10px;
+  color: #7f7d7d;
+  margin: 0;
+  cursor: pointer;
 }
